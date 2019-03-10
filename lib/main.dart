@@ -158,7 +158,7 @@ class _MyHomePageState extends State<MyHomePage> {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10.0)
       ),
-      elevation: 7.0,
+      elevation: 0.0,
       child: Column(
         children: <Widget>[
           SizedBox(height: 12.0),
