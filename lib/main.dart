@@ -54,9 +54,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 margin: EdgeInsets.fromLTRB(25.0, 90.0, 25.0, 0.0),
                 decoration: BoxDecoration(
                     color: Colors.white,
-                    borderRadius: BorderRadius.circular(20.0),
+                    borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20.0), bottomRight: Radius.circular(20.0)),
                     boxShadow: [
-                      BoxShadow(blurRadius: 2.0, color: Colors.grey)
+                      BoxShadow(blurRadius: 2.0, color: Colors.white)
                     ]),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
